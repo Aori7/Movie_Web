@@ -61,5 +61,63 @@ body{
 }
 
 
+.featured-movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    /* background-color: white; */
+    color: white;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+.movie-name{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.line{
+    width: 100%;
+    margin-top: 40px;
+    border-top: 1px solid white;
+}
+
+.movie-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+    width: auto;
+    align-items: center;
+}
+
+.movie img{
+    height: 400px;
+    width: auto;
+    display: flex;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-movie{
+    color: white;
+    margin: 20px;
+}
+
+
+.footer-bar{
+    background-color: black;
+    height: 300px;
+    width: auto;
+}
 
 
